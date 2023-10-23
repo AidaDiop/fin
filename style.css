@@ -250,8 +250,10 @@ p4{
     }
 
     .groupe1{
-        width: 290%;
+        width: 1128px;
         height: 3000px; 
+        margin: 0;
+        background-size: cover;
         
        
     }
