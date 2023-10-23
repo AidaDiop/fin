@@ -8,7 +8,9 @@ body{
 .groupe1{
     padding: 50px;
     padding-left: 50px;
-    background-color: gray;
+    background-image: url(nora2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 500px;
 }
 
@@ -23,7 +25,7 @@ nav a{
 }
 
 nav .icons a{
-    color: rgb(41, 41, 41);
+    color: white;
 }
 
 
@@ -43,6 +45,7 @@ nav ul{
 .logo{
     left: 5%;
     font-size: 30px;
+    color: white;
 }
 
 .icons{
@@ -51,7 +54,7 @@ nav ul{
 }
 
 .facebook{
-    border: 1px solid black;
+    border: 1px solid rgb(142, 139, 139);
     border-radius: 50%;
     padding: 10px;
     width: 10px;
@@ -62,7 +65,7 @@ nav ul{
 }
 
 .instagram{
-    border: 1px solid black;
+    border: 1px solid rgb(142, 139, 139);
     border-radius: 50%;
     padding: 10px;
     width: 10px;
@@ -73,7 +76,7 @@ nav ul{
 }
 
 .tumblr{
-    border: 1px solid black;
+    border: 1px solid rgb(142, 139, 139);
     border-radius: 50%;
     padding: 10px;
     width: 10px;
@@ -84,7 +87,7 @@ nav ul{
 }
 
 .pinteress{
-    border: 1px solid black;
+    border: 1px solid rgb(142, 139, 139);
     border-radius: 50%;
     padding: 10px;
     width: 10px;
@@ -119,6 +122,8 @@ p{
     text-align: center;
 }
 
+
+
 .groupe2{
     display: flex;
     justify-content: center;
@@ -138,30 +143,44 @@ p{
 }
 
 .blog a{
-    color: black;
+    color: rgb(104, 103, 103);
 
 }
-
-
 
 .para2{
     margin-left: 40px;
+    color: rgb(87, 85, 85);
 }
 
-.fa-image{
-    background-color: rgb(180, 177, 177);
-    width: 460px;
-    height: 330px;
+
+.photo img{
+    height: 400px;
+    width: 580px;
+    margin-left: 50px;
+    margin-top: 30px;
+} 
+
+
+.photo{
+    width: 50%;
 }
+
+
 
 
 
 
 
 @media screen and (max-width: 412px){
+
+    body{
+        margin: 0;
+    }
+
     .groupe1{
         width: 270%;
-        height: 2800px;     
+        height: 3000px; 
+       
     }
     
     nav ul{
@@ -185,7 +204,7 @@ p{
     }
 
     .facebook{
-        border: 1px solid black;
+        border: 1px solid rgb(113, 113, 115);
         border-radius: 50%;
         padding: 20px;
         width: 60px;
@@ -196,7 +215,7 @@ p{
     }
 
     .instagram{
-        border: 1px solid black;
+        border: 1px solid rgb(113, 113, 115);
         border-radius: 50%;
         padding: 20px;
         width: 60px;
@@ -207,7 +226,7 @@ p{
     }
     
     .tumblr{
-        border: 1px solid black;
+        border: 1px solid rgb(113, 113, 115);
         border-radius: 50%;
         padding: 20px;
         width: 60px;
@@ -218,7 +237,7 @@ p{
     }
     
     .pinteress{
-        border: 1px solid black;
+        border: 1px solid rgb(113, 113, 115);
         border-radius: 50%;
         padding: 20px;
         width: 60px;
@@ -262,38 +281,40 @@ p{
 
 
     .groupe2{
-        display: none;
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
     
-    .follow{
-        display: flex;
-        gap: 15px;
+    h2{
+        font-size: 90px;
+        margin-left: 150px;
     }
-    
-    .blog{
-        display: none;
-        padding-top: 30px;
-        gap: 15px;
-    
-    }
-    
-    .blog a{
-        color: black;
-    
-    }
-    
-    
-    
+
     .para2{
-        margin-left: 40px;
+        margin-left: 700px;
+        font-size: 50px;
     }
+
+    .follow{
+        margin-left: -120px;
+    }
+
+    .blog{
+        padding-top: 110px;
+        gap: 35px;
+    }
+
+    .photo img{
+        height: 700px;
+        width: 1100px;
+        margin-left: -40px;
+        margin-top: 60px;
+    } 
     
-    .fa-image{
-        background-color: rgb(180, 177, 177);
-        width: 460px;
-        height: 330px;
+    
+    .photo{
+        width: 50%;
     }
     
 
