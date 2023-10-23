@@ -137,7 +137,7 @@ p{
 
 .blog{
     display: flex;
-    padding-top: 30px;
+    padding-top: 50px;
     gap: 15px;
 
 }
@@ -154,16 +154,88 @@ p{
 
 
 .photo img{
-    height: 400px;
+    height: 480px;
     width: 580px;
     margin-left: 50px;
-    margin-top: 30px;
+    margin-top: 25px;
 } 
 
 
 .photo{
     width: 50%;
 }
+
+
+h3{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.groupe3{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.tof1 img{
+    width: 570px;
+    height: 300px;
+}
+
+.tof2 img{
+    width: 570px;
+    height: 300px;
+}
+
+
+p3{
+    margin-left: 180px;
+}
+
+p4{
+    margin-left: 200px;
+    color: rgb(130, 128, 128);
+}
+
+
+.groupe4{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.tof3 img{
+    width: 570px;
+    height: 300px;
+}
+
+.tof4 img{
+    width: 570px;
+    height: 300px;
+}
+
+
+p3{
+    margin-left: 180px;
+}
+
+p4{
+    margin-left: 160px;
+    color: rgb(130, 128, 128);
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -288,7 +360,7 @@ p{
     
     h2{
         font-size: 90px;
-        margin-left: 150px;
+        margin-left: 100px;
     }
 
     .para2{
@@ -297,12 +369,12 @@ p{
     }
 
     .follow{
-        margin-left: -120px;
+        margin-left: -100px;
     }
 
     .blog{
-        padding-top: 110px;
-        gap: 35px;
+        padding-top: 60px;
+        gap: 45px;
     }
 
     .photo img{
@@ -316,6 +388,61 @@ p{
     .photo{
         width: 50%;
     }
+
+    h3{
+        font-size: 50px;
+        margin-left: 20px;
+    }
     
+    .groupe3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .groupe4{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tof1 img{
+        height: 700px;
+        width: 1252px;
+        margin-left: -40px;
+        margin-top: 60px;
+    }
+    
+    .tof2 img{
+        height: 700px;
+        width: 1252px;
+        margin-left: -40px;
+        margin-top: 60px;
+    }
+
+    .tof3 img{
+        height: 700px;
+        width: 1252px;
+        margin-left: -40px;
+        margin-top: 60px;
+    }
+    
+    .tof4 img{
+        height: 700px;
+        width: 1252px;
+        margin-left: -40px;
+        margin-top: 60px;
+    }
+    
+    
+    p3{
+        margin-left: 10px;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    p4{
+        margin-left: 20px;
+        color: rgb(130, 128, 128);
+        font-size: 50px;
+    }
 
 }
